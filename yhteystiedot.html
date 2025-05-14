@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arsin Panimo</title>
+  <title>Yhteystiedot - Arsin Panimo</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
         <nav class="desktop-nav">
           <div class="nav-buttons">
             <a href="tuotteet.html" class="nav-button">Tuotteet</a>
-            <a href="yhteystiedot.html" class="nav-button">Yhteystiedot</a>
+            <a href="yhteystiedot.html" class="nav-button active">Yhteystiedot</a>
           </div>
         </nav>
         <button class="mobile-menu-button" aria-label="Toggle menu">
@@ -25,26 +25,42 @@
         </button>
       </div>
       <div class="mobile-nav">
-        <a href="tuotteet.html" class="mobile-nav-button">Tuotteet</a>
-        <a href="yhteystiedot.html" class="mobile-nav-button">Yhteystiedot</a>
+        <a href="tuotteet.html" class="nav-button">Tuotteet</a>
+        <a href="yhteystiedot.html" class="nav-button active">Yhteystiedot</a>
       </div>
     </div>
   </header>
-  <main>
-    <section class="hero">
-      <div class="container hero-content">
-        <div class="hero-text">
-          <h1>Arsin Panimo</h1>
-          <div class="hero-buttons">
-            <a href="tuotteet.html" class="hero-button">Tuotteet</a>
-            <a href="yhteystiedot.html" class="hero-button">Yhteystiedot</a>
+  <main class="page-content" id="contact-page">
+    <div class="page-header">
+      <h1>Yhteystiedot</h1>
+    </div>
+    
+    <div class="container contact-container">
+      <div class="contact-grid">
+        <div class="contact-left">
+          <div class="contact-section">
+            <h2>Käyntiosoite</h2>
+            <p>Maltaantie 1</p>
+            <p>00010 Ankkalinna</p>
+          </div>
+          
+          <div class="contact-section">
+            <h2>Aukioloajat</h2>
+            <p>ma-to 16:00-22:00</p>
+            <p>pe-la 14:00-02:00</p>
+            <p>su suljettu</p>
           </div>
         </div>
-        <div class="hero-image">
-          <img src="assets/lyhdyt.png" alt="Lanterns">
+        
+        <div class="contact-right">
+          <div class="contact-section">
+            <h2>Yhteystiedot</h2>
+            <p>Puh. 0400 001 002</p>
+            <p>panimo@arsinpanimo.fi</p>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
   </main>
   <script src="script.js"></script>
 </body>
